@@ -1,0 +1,14 @@
+/* 각 페이지에 공통으로 사용되는 CSS */
+.rotate {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+h2 {
+    margin-left: 10px;
+    background: url(../img/icon.png) no-repeat left top;
+    border:1px solid black;
+    background-size: contain;
+}
