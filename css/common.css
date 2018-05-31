@@ -9,6 +9,16 @@
 h2 {
     margin-left: 10px;
     background: url(../img/icon.png) no-repeat left top;
-    border:1px solid black;
     background-size: contain;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.radiusDiv {
+    display: block;
+    width:90%;
+    margin: 15px;
+    padding:15px;
+    border:1px solid black;
+    border-radius: 10px;
 }
