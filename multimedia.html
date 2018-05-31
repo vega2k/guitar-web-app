@@ -17,13 +17,37 @@
 <div class="radiusDiv">
     <img src="audio_video/bach.jpg" alt="바흐사진">
     <h3>바흐(Johann Sebastian Bach, 1685~1750)</h3>
-<p> 서양 음악의 아버지라고 일컫는 바흐는  바로크 시대의 최후에 위치하는 대작곡가로서,
-    독일음악의 전통에 깊이 뿌리박고 있을 뿐 아니라,
-    그 위에 이탈리아나 프랑스의 양식을 채택하고
-    그것들을 융합하여 독자적 개성적인 음악을 창조하였다.</p>
-
+    <p> 서양 음악의 아버지라고 일컫는 바흐는  바로크 시대의 최후에 위치하는 대작곡가로서,
+        독일음악의 전통에 깊이 뿌리박고 있을 뿐 아니라,
+        그 위에 이탈리아나 프랑스의 양식을 채택하고
+        그것들을 융합하여 독자적 개성적인 음악을 창조하였다.</p>
+    <h3>Sinfonia</h3>
+    <!--
+        controls : 컨트롤 막대 표시
+        autoplay : 자동재생
+        loop : 반복재생
+        muted : 재생은 하지만 소리를 끈다
+    -->
+    <audio controls autoplay loop muted>
+        <source src="audio_video/bach.mp3">
+        <source src="audio_video/bach.ogg">
+    </audio>
 </div>
 <h2>비디오 재생</h2>
 <div class="radiusDiv">
-
+    <h3>제주의 봄</h3>
+    <!--
+        controls : 컨트롤 막대 표시
+        poster : 비디오를 재생할 수 없거나,비디오 화면 자리에 대신 표시하는 image
+        autoplay : 자동재생
+    -->
+    <video width="450" height="300" controls poster="audio_video/ready.jpg">
+        <source src="audio_video/gate.mp4">
+        <source src="audio_video/gate.ogv">
+        <source src="audio_video/gate.wmv">
+        <source src="audio_video/gate.webm">
+        <track src="audio_video/Painting.vtt" srclang="ko"
+               label="Korean" default>
+        이 영상을 재생하기 위해서는 HTML5를 지원하는 브라우저가 필요합니다.
+    </video>
 </div>
